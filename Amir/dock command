@@ -4,3 +4,7 @@ docker build --build-arg WWWGROUP=$(id -g) \
 
 docker run -e "DEBIAN_FRONTEND noninteractive" \
 -e "TZ=UTC"
+
+
+
+ ssh greenshelfadmin@13.49.79.228
